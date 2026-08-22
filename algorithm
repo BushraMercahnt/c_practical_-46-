@@ -1,0 +1,30 @@
+Name: Bushra Merchant
+Roll No: 46
+Algorithm: calculator using switch statement
+
+          1.	Start
+	2.	Declare three integer variables: num1, num2, choice
+	3.	Display the message “Enter two numbers” and read values into num1 and num2
+	4.	Display the menu:
+	•		1.	Addition
+	•		2.	Subtraction
+	•		3.	Multiplication
+	•		4.	Division
+	5.	Prompt the user to “Enter your choice” and read the value into choice
+	6.	Check the value of choice using a switch statement:
+	•	If choice = 1:
+a. Compute sum = num1 + num2
+b. Display the sum
+	•	If choice = 2:
+a. Compute difference = num1 - num2
+b. Display the difference
+	•	If choice = 3:
+a. Compute product = num1 * num2
+b. Display the product
+	•	If choice = 4:
+a. Check if num2 ≠ 0
+	•	If true: compute quotient = num1 / num2 and display it
+	•	If false: display “Error! Division by zero is not allowed”
+	•	Default (any other choice):
+	•	Display “Error! Invalid choice”
+	7.	Stop
